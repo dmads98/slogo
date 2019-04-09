@@ -3,17 +3,21 @@ package Parser.Commands.Turtle_Command;
 import GraphicsBackend.Point;
 import GraphicsBackend.Turtle;
 import Parser.BackendController;
-import Parser.Commands.Command;
 import Parser.Commands.TurtleCommand;
 
 /**
+ * Command moves turtle to the center of the screen (0, 0).
+ *
  * @author kunalupadya
  * @author Louis Lee
- * @author Dhanush
+ * @author Dhanush Madabusi
  */
 
 public class HomeCommand extends TurtleCommand {
 
+    /**
+     * Command Constructor
+     */
     public HomeCommand(){
         setNumParameters(0);
         isOutputCommand = false;
